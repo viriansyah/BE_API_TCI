@@ -5,4 +5,5 @@ module.exports = {
   mongoose,
   url: dbconfig.url,
   football: require("./football.models.js")(mongoose),
+  word: require("./text.models.js")(mongoose),
 };

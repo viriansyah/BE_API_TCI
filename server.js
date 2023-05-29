@@ -39,6 +39,7 @@ db.mongoose
   });
 
 require("./app/routes/football.routes")(app);
+require("./app/routes/text.routes")(app);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`server started on port ${PORT}`));
